@@ -1,0 +1,13 @@
+{  
+  "first_name": "Pirulo",
+  "last_name" : "Gómez",
+  "username": "Pirulo10",
+  "email": "pirulito@hotmail.com",
+  "password": "password",
+  "cp": 1234,
+  "address": "Calle Falsa 123",
+  "phone": "+542668877",
+  "avatar_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0sZ4ZJbnlVBWmEnXYU-31ipzcwZL0LQ3P5csvSiX3BnOJY96uqZlHBDBrBSQINIyMvy8&usqp=CAU",
+  "admin": true,
+  "master": true
+}
