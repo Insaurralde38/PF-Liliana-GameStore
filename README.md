@@ -40,7 +40,6 @@
 [![Redux](https://img.shields.io/badge/Redux-7241BE.svg?style=flat-square&logo=redux&logoColor=white&link=https://es.redux.js.org/)](https://es.redux.js.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7C01FD?style=flat-square&logo=bootstrap&logoColor=white&link=https://getbootstrap.com/)](https://getbootstrap.com/)
 [![Vite](https://img.shields.io/badge/Vite-9E40FF?style=flat-square&logo=vite&logoColor=F7CA00&link=https://vitejs.dev/)](https://vitejs.dev/)
-
 [![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=Node.js&link=https://nodejs.org/es)](https://nodejs.org/es)
 [![Express.js](https://img.shields.io/badge/Express.js-404D59.svg?style=flat-square&logo=express&link=https://expressjs.com/es/)](https://expressjs.com/es/)
 [![Sequelize](https://img.shields.io/badge/Sequelize-31396A?style=flat-square&logo=Sequelize&logoColor=68AEE8&link=https://sequelize.org/)](https://sequelize.org/)
@@ -66,20 +65,6 @@ Liliana Games está diseñada para brindar una experiencia de compra fluida a lo
   - **Pagos seguros**
   - **Seguimiento de pedidos**
 
-Es necesario contar minimamente con la última versión estable de NodeJS y NPM. Asegúrate de contar con ella para poder instalar correctamente las dependecias necesarias para correr el proyecto. Actualmente las versiónes necesarias son:
-
--  **Node**: 12.18.3 o mayor
--  **NPM**: 6.14.16 o mayor
-
-Para verificar que versión tienes instalada:
-
-```bash
-node -v
-npm -v
-```
-
-<br />
-
 ---
 
 <div align="center">
@@ -88,50 +73,81 @@ npm -v
 
 </div>
 
-**1.** Sí deseas clonar el repositorio en tu computadora para ejecutarlo de manera local, primero es necesario instalar las depencencias de los archivos **`package.json`** tanto del Back-End, como del Front-End. Para ello es necesario que abras una terminal ubicado dentro de la carpeta **`api`** y otra terminal ubicado dentro de la carpeta **`client`**.
+Es necesario contar mínimamente con la última versión estable de **Node.js** y **npm**. Asegúrate de contar con ella para poder instalar correctamente las dependencias necesarias para correr el proyecto. Actualmente las versiones necesarias son:
 
--  Cuando te encuentres en estas carpetas, debes ejecutar el comando
+-  **Node.js**: 12.18.3 o mayor
+-  **npm**: 6.14.16 o mayor
 
-```bash
-    npm install
-```
+Para verificar que versión tienes instalada:
 
-**2.** En la carpeta **`api`** deberás crear un archivo llamado: **`.env`** que tenga la siguiente forma:
-
-   ```env
-       DB_USER=usuarioDePostgres
-       DB_PASSWORD=passwordDePostgres
-       DB_HOST=localhost
-       MERCADO_PAGO=usuarioDePruebaMP
-       ACCESS_TOKEN=tokenDePruebaMP
-       USER_MAIL_NODEMAILER=usuarioDeNodemailer
-       USER_PASS_NODEMAILER=passwordDeNodemailer
+   ```bash
+   node -v
+   npm -v
    ```
-
-**3.** Reemplazar **`usuarioDePostgres`**, **`passwordDePostgres`**, **`usuarioDePruebaMP`**, **`tokenDePruebaMP`**, **`usuarioDeNodemailer`** y **`passwordDeNodemailer`** con tus propias credenciales para conectarte a postgres, MercadoPago y Nodemailer respectivamente. Este archivo no está incluido en este repositorio de github, ya que las credenciales son información sensible.
-
-**4.** Adicionalmente será necesario que crees, **desde psql (shell o PGAdmin)**, una base de datos llamada **`lilianadb`**. Si no realizas este paso de manera manual no podrás visualizar el proyecto de manera local.
-
-**5.** Para visualizar la aplicación desde el navegador, en la terminal previamente abierta ubicada dentro de la carpeta **`api`**, debes ejecutar el comando:
-
-
-        npm start
-
-y en la terminal previamente abierta ubicada dentro de la carpeta **`client`**, debes ejecutar el comando:
-
-
-        npm run dev
-
-Ingresando a <http://localhost:3000> desde el navegador, podrás ver el proyecto en tiempo real.
-
-<br />
 
 ---
 
-<br />
+<div align="center">
+
+## **⚙️ INSTALACIÓN Y USO**
+
+</div>
+
+1. **Clonar el repositorio:**
+
+   ```bash
+   git clone https://github.com/Insaurralde38/PF-Liliana-GameStore.git
+   cd PF-Liliana-GameStore
+   ```
+
+2. **Instalar dependencias**:
+
+    Asegúrate de tener **Node.js** y **npm** instalados en tu sistema. Luego, instala las dependencias de los archivos **`package.json`** tanto del Back-End, como del Front-End. Para ello es necesario que abras una terminal ubicado dentro de la carpeta **`api`** y otra terminal ubicado dentro de la carpeta **`client`**.
+
+   ```bash
+   npm install
+   ```
+
+3. **Añadir variables de entorno**:
+
+    En la carpeta **`api`** deberás crear un archivo llamado: **`.env`** que tenga la siguiente forma:
+
+   ```env
+   DB_USER=usuarioDePostgres
+   DB_PASSWORD=passwordDePostgres
+   DB_HOST=localhost
+   MERCADO_PAGO=usuarioDePruebaMP
+   ACCESS_TOKEN=tokenDePruebaMP
+   USER_MAIL_NODEMAILER=usuarioDeNodemailer
+   USER_PASS_NODEMAILER=passwordDeNodemailer
+   ```
+
+    Reemplazar **`usuarioDePostgres`**, **`passwordDePostgres`**, **`usuarioDePruebaMP`**, **`tokenDePruebaMP`**, **`usuarioDeNodemailer`** y **`passwordDeNodemailer`** con tus propias credenciales para conectarte a Postgres. Este archivo no está incluido en este repositorio de github, ya que las credenciales son información sensible.
+
+2. **Crear base de datos**:
+
+    Adicionalmente será necesario que crees, desde **psql (shell o PGAdmin)**, una base de datos llamada **`lilianadb`**. Si no realizas este paso de manera manual no podrás visualizar el proyecto de manera local.
+
+5. **Añadir variables de entorno**:
+
+    Para visualizar la aplicación desde el navegador, en la terminal previamente abierta ubicada dentro de la carpeta **`api`**, debes ejecutar el comando:
+
+   ```bash
+   npm start
+   ```
+
+    y en la terminal previamente abierta ubicada dentro de la carpeta **`client`**, debes ejecutar el comando:
+
+   ```bash
+   npm run dev
+   ```
+
+    Ingresando a <http://localhost:3000> desde el navegador, podrás ver el proyecto en tiempo real
+
+---
 
 <div align="end">
 
-Hecho con 💙💛💙 por [**DIEGO INSAURRALDE**](https://www.linkedin.com/in/djinsaurralde38/) 🐒
+Hecho con <img src="./client/src/assets/boke-heart.png" alt="heart" height="14" width="16" style="margin: 0px 0px -2.5px 0px" > por [**DIEGO INSAURRALDE**](https://insaurralde.vercel.app/) <img src="./client/src/assets/boke-chimp.png" alt="chimp" height="21" width="21" style="margin: 0px 0px -4px 0px" >
 
 </div>
