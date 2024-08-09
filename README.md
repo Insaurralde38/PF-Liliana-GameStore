@@ -5,7 +5,7 @@
 # Proyecto Final | [**Liliana GameStore**](https://lilianagamesstore.onrender.com)
 
 <p align="center">
-  <img src="https://www.vodacom.co.za/sites/vodacomcoza/files/styles/extra_large_landscape/public/2021-06/microsoft-store-banner.jpg?itok=viZ4SSQy" />
+  <img src="https://www.vodacom.co.za/sites/vodacomcoza/files/styles/extra_large_landscape/public/2021-06/microsoft-store-banner.jpg?itok=viZ4SSQy" alt="Liliana GameStore Banner" />
 </p>
 
 ---
