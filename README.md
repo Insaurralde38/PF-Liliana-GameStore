@@ -1,5 +1,5 @@
 <p align='left'>
-    <img src='https://static.wixstatic.com/media/85087f_0d84cbeaeb824fca8f7ff18d7c9eaafd~mv2.png/v1/fill/w_160,h_30,al_c,q_85,usm_0.66_1.00_0.01/Logo_completo_Color_1PNG.webp' </img>
+    <img src='https://static.wixstatic.com/media/85087f_0d84cbeaeb824fca8f7ff18d7c9eaafd~mv2.png/v1/fill/w_160,h_30,al_c,q_85,usm_0.66_1.00_0.01/Logo_completo_Color_1PNG.webp' >
 </p>
 
 # Proyecto Final | [**Liliana GameStore**](https://lilianagamesstore.onrender.com)
@@ -33,14 +33,14 @@
     
 ## **📌 TECNOLOGÍAS UTILIZADAS**
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
-![HTML5](https://img.shields.io/badge/-HTML5-E46625?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-385BF4?style=flat-square&logo=css3)
-[![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react&link=https://es.react.dev/)](https://es.react.dev/)
-[![Redux](https://img.shields.io/badge/Redux-7241BE.svg?style=flat-square&logo=redux&logoColor=white&link=https://es.redux.js.org/)](https://es.redux.js.org/)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-7C01FD?style=flat-square&logo=bootstrap&logoColor=white&link=https://getbootstrap.com/)](https://getbootstrap.com/)
+![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=javascript)
+![HTML5](https://img.shields.io/badge/-HTML5-E46625?style=flat-square&logo=html5&logoColor=FFFFFF)
+![CSS](https://img.shields.io/badge/-CSS-663399?style=flat-square&logo=css)
+[![React](https://img.shields.io/badge/-React-000000?style=flat-square&logo=react&link=https://es.react.dev/)](https://es.react.dev/)
+[![Redux](https://img.shields.io/badge/Redux-7241BE.svg?style=flat-square&logo=redux&logoColor=FFFFFF&link=https://es.redux.js.org/)](https://es.redux.js.org/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-7C01FD?style=flat-square&logo=bootstrap&logoColor=FFFFFF&link=https://getbootstrap.com/)](https://getbootstrap.com/)
 [![Vite](https://img.shields.io/badge/Vite-9E40FF?style=flat-square&logo=vite&logoColor=F7CA00&link=https://vitejs.dev/)](https://vitejs.dev/)
-[![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=Node.js&link=https://nodejs.org/es)](https://nodejs.org/es)
+[![Node.js](https://img.shields.io/badge/-Node.js-000000?style=flat-square&logo=Node.js&link=https://nodejs.org/es)](https://nodejs.org/es)
 [![Express.js](https://img.shields.io/badge/Express.js-404D59.svg?style=flat-square&logo=express&link=https://expressjs.com/es/)](https://expressjs.com/es/)
 [![Sequelize](https://img.shields.io/badge/Sequelize-31396A?style=flat-square&logo=Sequelize&logoColor=68AEE8&link=https://sequelize.org/)](https://sequelize.org/)
 [![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-404D59?style=flat-square&logo=postgresql&logoColor=61DAFB&link=https://www.postgresql.org/)](https://www.postgresql.org/)
@@ -64,26 +64,6 @@ Liliana Games está diseñada para brindar una experiencia de compra fluida a lo
   - **Carrito de compras**
   - **Pagos seguros**
   - **Seguimiento de pedidos**
-
----
-
-<div align="center">
-
-## **⚠️ IMPORTANTE!**
-
-</div>
-
-Es necesario contar mínimamente con la última versión estable de **Node.js** y **npm**. Asegúrate de contar con ella para poder instalar correctamente las dependencias necesarias para correr el proyecto. Actualmente las versiones necesarias son:
-
--  **Node.js**: 12.18.3 o mayor
--  **npm**: 6.14.16 o mayor
-
-Para verificar que versión tienes instalada:
-
-   ```bash
-   node -v
-   npm -v
-   ```
 
 ---
 
@@ -143,6 +123,26 @@ Para verificar que versión tienes instalada:
    ```
 
     Ingresando a <http://localhost:3000> desde el navegador, podrás ver el proyecto en tiempo real
+
+---
+
+<div align="center">
+
+## **⚠️ IMPORTANTE!**
+
+</div>
+
+Es necesario contar mínimamente con la última versión estable de **Node.js** y **npm**. Asegúrate de contar con ella para poder instalar correctamente las dependencias necesarias para correr el proyecto. Actualmente las versiones necesarias son:
+
+-  **Node.js**: 12.18.3 o mayor
+-  **npm**: 6.14.16 o mayor
+
+Para verificar que versión tienes instalada:
+
+   ```bash
+   node -v
+   npm -v
+   ```
 
 ---
 
